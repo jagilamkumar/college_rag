@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-cohere
+langchain-community
+cohere
+PyMuPDF
+SpeechRecognition
+pyaudio

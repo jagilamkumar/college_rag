@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: college-chatbot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run college_bot.py --server.port $PORT
+    envVars:
+      - key: COHERE_API_KEY
+        value: e8YGxF4rmdD14ghKD1UZATDY7a98zKcRO6x3JmfC
